@@ -1,5 +1,5 @@
 ## Is Learning Always Necessary for Solving Fourier Phase Retrieval with a Reference Image?
-This repository containes code for our submission to the NeurIPS 2021 Workshop on Deep Learning and Inverse Problems.
+This repository contains code for our submission to the NeurIPS 2021 Workshop on Deep Learning and Inverse Problems.
 
 ## Contents
 ```
