@@ -1,14 +1,51 @@
 ## Is Learning Always Necessary for Solving Fourier Phase Retrieval with a Reference Image?
-This repository containes code for our submission to the NeurIPS 2021 workshop on Deep Learning and Inverse Problems.
+This repository contains code for our submission to the NeurIPS 2021 Workshop on Deep Learning and Inverse Problems.
 
 ## Contents
 ```
-
+|-- references
+|   |-- gs
+|   |   |-- non-oversampled
+|   |   |   |-- u_cifar_gs.npy
+|   |   |   |-- u_emnist_gs.npy
+|   |   |   |-- u_fmnist_gs.npy
+|   |   |   |-- u_mnist_gs.npy
+|   |   |   `-- u_svhn_gs.npy
+|   |   `-- oversampled
+|   |       |-- u_cifar.npy
+|   |       |-- u_emnist.npy
+|   |       |-- u_fmnist.npy
+|   |       |-- u_mnist.npy
+|   |       `-- u_svhn.npy
+|   |-- hyder
+|   |   |-- non-oversampled
+|   |   |   |-- u_cifar.npy
+|   |   |   |-- u_emnist.npy
+|   |   |   |-- u_fmnist.npy
+|   |   |   |-- u_mnist.npy
+|   |   |   `-- u_svhn.npy
+|   |   `-- oversampled
+|   |       |-- u_celeba.npy
+|   |       |-- u_cifar.npy
+|   |       |-- u_emnist.npy
+|   |       |-- u_fmnist.npy
+|   |       |-- u_mnist.npy
+|   |       `-- u_svhn.npy
+|   `-- random
+|       |-- u_ours_noiseless.npy
+|       |-- u_ours.npy
+|       |-- u_random_binary.npy
+|       `-- u_random.npy
+|-- data.py
+|-- phase-retrieval-with-reference.ipynb
+|-- README.md
+|-- unrolled-GS.ipynb
+`-- util.py
     
 ```
 
 ### Requirements
-All experiments were conducted with the following packages:
+All experiments were conducted with the following package versions:
 - numpy==1.19.5
 - torch==1.9.0
 - torchvision==0.10.0
